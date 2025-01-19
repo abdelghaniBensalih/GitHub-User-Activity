@@ -37,8 +37,4 @@ This project is a React application that allows users to search for GitHub repos
 
 ## Contributing
 
-Contributions are welcome! Please open an issue or submit a pull request for any changes.
-
-## License
-
-This project is licensed under the MIT License.
+This project was part of the roadmap.sh projects. You can find more details [here](https://roadmap.sh/projects/github-user-activity). Contributions are welcome! Please, if you have any query or suggestion, you can reach out to me
