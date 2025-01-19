@@ -67,7 +67,7 @@ function App() {
               placeholder="Enter GitHub Username"
               value={username}
               onChange={(e) => setUsername(e.target.value)}
-              className="w-full sm:w-auto py-2 bg-gray-800 border border-orange-500 rounded-md text-white"
+              className="w-full sm:w-auto py-3 px-3 bg-gray-800 border border-orange-500 rounded-md text-white"
             />
             <button
               className="px-3 py-2 bg-orange-500 rounded-md text-white hover:bg-orange-600"
@@ -136,8 +136,8 @@ function App() {
                 <span className="text-lime-500">
                   {details.stargazers_count === 0
                     ? "No Stars"
-                    : details.stargazers_count > 10
-                    ? "more than 10 stars"
+                    : details.stargazers_count > 5
+                    ? "more than 5 stars"
                     : "⭐".repeat(details.stargazers_count)}
                 </span>
               </h2>
