@@ -54,13 +54,13 @@ function App() {
   }
 
   return (
-    <div className="App">
-      <h1 className="text-2xl text-center font-bold text-gray-900 my-3">
+    <div className="min-h-screen bg-gray-900 text-white">
+      <h1 className="text-xl text-center font-bold bg-white text-gray-900 py-3">
         GitHub User Activity
       </h1>
-      <div className="flex h-screen flex-col md:flex-row bg-gray-900 text-white">
+      <div className="flex flex-col md:flex-row h-full">
         {/* Left Section */}
-        <div className="w-full md:w-1/2 flex flex-col justify-start mt-10 items-center border-b md:border-r border-orange-500">
+        <div className="w-full md:w-1/2 flex flex-col justify-start mt-10 items-center  md:border-r border-orange-500">
           <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 px-4">
             <input
               type="text"
